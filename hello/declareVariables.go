@@ -19,4 +19,11 @@ func main() {
 
 	word1,word2 := "Hello", "World"
 	fmt.Println(multiple(word1,word2))
+
+	fmt.Println(convert(6.94))
+}
+
+// change datatype
+func convert(num1 float64) int {
+	return int(num1)
 }
